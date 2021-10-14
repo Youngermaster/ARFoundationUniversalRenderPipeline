@@ -1,1 +1,1 @@
-# ARFoundationUniversalRenderPipeline
+# AR Foundation Universal Render Pipeline
