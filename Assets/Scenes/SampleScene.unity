@@ -555,7 +555,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sessionOrigin: {fileID: 1381675447}
-  arObjectToSpawn: {fileID: 2670591276204660961, guid: 51ff081cb7380bd4fbb38fd5e442b104, type: 3}
+  arObjectToSpawn: {fileID: 919132149155446097, guid: ad62c549d1e0b764997a5c75f8e85555, type: 3}
   placementIndicator: {fileID: 333233943}
 --- !u!4 &1983456790
 Transform:
