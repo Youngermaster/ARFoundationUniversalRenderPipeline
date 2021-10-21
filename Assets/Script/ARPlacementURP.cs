@@ -6,6 +6,13 @@ using UnityEngine.XR.ARSubsystems;
 
 public class ARPlacementURP : MonoBehaviour
 {
+    public ARCameraManager cameraManager
+    {
+        get => m_CameraManager;
+        set => m_CameraManager = value;
+    }
+
+    ARCameraManager m_CameraManager;
     // We need orientation to the AR Camera
     public ARSessionOrigin sessionOrigin;
     public GameObject arObjectToSpawn;
@@ -17,6 +24,11 @@ public class ARPlacementURP : MonoBehaviour
 
     void Start()
     {
+        CameraFacingDirection newFacingDirection;
+        newFacingDirection = CameraFacingDirection.User;
+        m_CameraManager.requestedFacingDirection = newFacingDirection;
+
+
         aRRaycastManager = FindObjectOfType<ARRaycastManager>();
     }
 
